@@ -64,8 +64,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the closure is located int he function created within the 'personalDice' function.
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+'name' is always the same, the value of 'newRoll' can change.
+
 c. What is the lexical scope of `newRoll`? 
+Within the function nestled inside 'personalDice'
 
 
 ### Task 3 - Stretch Goals
